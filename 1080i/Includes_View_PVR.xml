@@ -905,7 +905,17 @@
 				<aspectratio>keep</aspectratio>
 				<texture>special://masterprofile/customisations\PVR\EPG Artwork\EPL.jpg</texture>
 				<visible>!Player.HasMedia + [String.Contains(ListItem.ChannelName,"EPL ")]</visible>
-			</control>			
+			</control>
+			<control type="image">
+				<align>right</align>
+				<posx>1475</posx>
+				<posy>-40</posy>
+				<width>294</width>
+				<height>160</height>
+				<aspectratio>keep</aspectratio>
+				<texture>special://masterprofile/customisations\PVR\EPG Artwork\EPL.jpg</texture>
+				<visible>!Player.HasMedia + [String.Contains(ListItem.ChannelName,"SPFL ")]</visible>
+			</control>					
     </include>
 
     <include name="View_PVR_Guide_ProgressLine_Full">

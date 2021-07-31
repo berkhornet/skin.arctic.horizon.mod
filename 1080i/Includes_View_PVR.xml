@@ -507,6 +507,17 @@
 			        <aspectratio aligny="center" align="right">keep</aspectratio>
 					<visible>String.Contains(ListItem.ChannelName,"League Two") | String.Contains(ListItem.ChannelName,"LIVE EFL L2")</visible>
 			    </control>
+				<!-- Channel Icon for Live SPFL -->
+				<control type="image">
+			        <posx>40</posx>
+			        <posy>11</posy>
+			        <width>217</width>
+			        <height>61</height>
+			        <bordersize>0</bordersize>
+					<texture>special://masterprofile/customisations\PVR\PVR Logo Pack - No Tags\LIVE SPFL.png</texture>
+			        <aspectratio aligny="center" align="right">keep</aspectratio>
+					<visible>String.Contains(ListItem.ChannelName,"League Two") | String.Contains(ListItem.ChannelName,"LIVE: SPFL")</visible>
+			    </control>
 				<!-- Channel Resolution icons added -->
 				<control type="image">
 					<left>255</left>

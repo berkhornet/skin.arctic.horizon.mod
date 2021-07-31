@@ -883,7 +883,7 @@
 				<height>160</height>
 				<aspectratio>keep</aspectratio>			
 				<texture fallback="special://xbmc/media/banner.png">$INFO[Window(Home).Property(SkinHelper.ListItem.Art.Thumb)]</texture>
-				<visible>!Player.HasMedia + !String.Contains(ListItem.ChannelName,"ifollow") + !String.Contains(ListItem.ChannelName,"League One") + !String.Contains(ListItem.ChannelName,"League Two") + !String.Contains(ListItem.ChannelName,"LIVE EFL") + !String.Contains(ListItem.ChannelName,"EPL ")</visible>
+				<visible>!Player.HasMedia + !String.Contains(ListItem.ChannelName,"ifollow") + !String.Contains(ListItem.ChannelName,"League One") + !String.Contains(ListItem.ChannelName,"League Two") + !String.Contains(ListItem.ChannelName,"LIVE EFL") + !String.Contains(ListItem.ChannelName,"EPL ") + !String.Contains(ListItem.ChannelName,"SPFL ")</visible>
 			</control>			
 			<!-- Program Artwork for Live Football -->
 			<control type="image">
